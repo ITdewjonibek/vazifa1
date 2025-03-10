@@ -1,0 +1,83 @@
+.darkglass{
+  width:100%;
+  height:729px;
+  padding-top:250px;
+  background-color:black;
+ 
+}
+.darkglass .dark{
+    position: relative;
+    width:800px;
+    transform: scaleY(0.3);
+    height: 300px;
+    box-shadow: 0px 50px 10px 20px rgb(255, 255, 254);
+    margin:0px auto;
+    background-color: rgb(19, 18, 18);
+    border-radius:50%;
+}
+.darkglass .img{
+    top:30px;
+    width:530px;
+    height: 300px;
+    
+
+    /* border:1px solid white; */
+    left:33%;
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: 0px 0px 100px 2px rgb(12, 239, 201);
+    position: absolute;
+}
+
+.darkglass img{
+    top:30px;
+    width:530px;
+    height: 300px;
+    left:33%;
+    box-shadow: 0px 0px 100px 2px rgb(12, 239, 201);
+    /* position: absolute; */
+    
+}
+.darkglass .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    
+}
+.darkglass .flex button{
+    width:60px;
+    height: 40px;
+    outline:none;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-size:24px;
+    border-radius:5px;
+    box-shadow: 0px 0px 30px 2px rgb(12, 239, 201);
+    border:1px solid white;
+
+}
+.darkglass .btn1{
+    width:40px;
+    height: 40px;
+    outline:none;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-size:24px;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px 2px rgb(12, 31, 239);
+    border:1px solid white;
+    margin-left:400px;
+}
+.darkglass .btn2{
+    width:40px;
+    height: 40px;
+    outline:none;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-size:24px;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px 2px rgb(239, 12, 12);
+    border:1px solid white;
+    margin-left:670px;
+}
